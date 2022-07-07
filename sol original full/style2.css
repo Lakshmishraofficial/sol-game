@@ -1,0 +1,489 @@
+body{
+    margin-top: 0%;
+    overflow: hidden;
+    }
+    
+    .bg{
+        position: absolute;
+        width: 203%;
+        margin-top: -9%;
+        margin-left:-20%;
+        filter: contrast(1.7);
+        z-index: -1;
+        animation: space;
+        animation-duration: 19s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+@keyframes space {
+    0%{
+        width:129%;
+        transform: rotate(0deg);
+        margin-top: -9%;
+        transition: ease-in-out;
+    }
+    50%{
+        width: 450%;
+        transform: rotate(30deg);
+        margin-left:-70%;
+        margin-top: -22%;
+        transition: ease-in-out;
+    }
+    100%{
+        width:140%;
+        margin-top: -9%;
+        transition: ease-in-out;
+    }
+    
+    
+}
+
+
+    
+.jet{
+    position: absolute;
+    width:35% ;
+    filter:contrast(1.9);
+    animation: fly;
+    animation-duration: 5s;
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fire {
+    0%{
+        margin-left: -10%;
+    }
+    100%{
+        margin-left: 100%;
+    
+    }
+}
+@keyframes fly {
+0%{
+    transition: ease-in-out;
+    margin-top: -8%;
+    transition: ease-in-out;
+}
+
+50%{
+    transition: ease-in-out;
+    margin-top: 10%;
+    transition: ease-in-out;
+}
+100%{
+    transition: ease-in-out;
+    margin-top: -8%;
+    transition: ease-in-out;
+}
+    
+}
+
+.light{
+    width: 30%;
+    position: absolute;
+    margin-left: 36%;
+    margin-top: -2%;
+}
+
+.trebl{
+    position: absolute;
+    width: 65%;
+    margin-left:34%;
+    margin-top: -4%;
+}
+
+.earth{
+    position: absolute;
+    width: 99%;
+    margin-top: 9%;
+    margin-left: -39%;
+    z-index: -1;
+    filter: contrast(1.1);
+    animation-name: spin;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+        transition: ease-in-out;
+    }
+    to{  transform: rotate(360deg);
+        transition: ease-in-out;
+    }
+    
+}
+
+.ast{
+    position: absolute;
+    width: 17%;
+    margin-top: 2%;
+    margin-left: 105%;
+    animation-name: travel;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   
+    
+    
+}
+
+@keyframes travel {
+    0%{
+       margin-left: 90%;
+       visibility: visible;
+       margin-top: 3%;
+       transition: ease-in-out;
+    }
+
+    10%{
+        margin-top: 1%;
+        transition: ease-in-out;
+    }
+    
+    60%{
+        margin-left: 46%;
+        visibility: hidden;
+        transition: ease-in-out;
+        
+    }
+    100%{
+        visibility: hidden; 
+        transition: ease-in-out;
+    }
+
+    
+}
+
+.ast2{
+    position: absolute;
+    width: 17%;
+    margin-top: 7%;
+    margin-left: 105%;
+    animation-name: travel2;
+    animation-duration: 26s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    
+    
+}
+
+@keyframes travel2 {
+    0%{
+       margin-left: 100%;
+       visibility: visible;
+       margin-top: 7%;
+       transition: ease-in-out;
+    }
+
+    10%{
+        margin-top: 7%;
+        transition: ease-in-out;
+    }
+    
+    60%{
+        margin-left: 46%;
+        visibility: hidden;
+        transition: ease-in-out;
+        
+    }
+    100%{
+        visibility: hidden; 
+        transition: ease-in-out;
+    }
+
+    
+}
+
+.ast3{
+    position: absolute;
+    width: 17%;
+    margin-top: 13%;
+    margin-left: 115%;
+    animation-name: travel3;
+    animation-duration: 39s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay:var(--animation-delay);
+    
+}
+
+@keyframes travel3 {
+    0%{
+       margin-left: 110%;
+       visibility: visible;
+       margin-top: 13%;
+       transition: ease-in-out;
+    }
+
+    10%{
+        margin-top: 13%;
+        transition: ease-in-out;
+    }
+    
+    60%{
+        margin-left: 46%;
+        visibility: hidden;
+        transition: ease-in-out;
+        
+    }
+    100%{
+        visibility: hidden; 
+        transition: ease-in-out;
+    }
+
+    
+}
+
+.ast4{
+    position: absolute;
+    width: 17%;
+    margin-top: 19%;
+    margin-left: 125%;
+    animation-name: travel4;
+    animation-duration: 69s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: var(--animation-delay);
+    
+}
+
+@keyframes travel4 {
+    0%{
+       margin-left: 120%;
+       visibility: visible;
+       margin-top: 19%;
+       transition: ease-in-out;
+    }
+
+    10%{
+        margin-top: 19%;
+        transition: ease-in-out;
+    }
+    
+    60%{
+        margin-left: 46%;
+        visibility: hidden;
+        transition: ease-in-out;
+        
+    }
+    100%{
+        visibility: hidden; 
+        transition: ease-in-out;
+    }
+
+    
+}
+
+.ast5{
+    position: absolute;
+    width: 17%;
+    margin-top: 25%;
+    margin-left: 135%;
+    animation-name: travel5;
+    animation-duration: 65s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: var(--animation-delay);
+    
+}
+
+@keyframes travel5 {
+    0%{
+       margin-left: 130%;
+       visibility: visible;
+       margin-top: 25%;
+       transition: ease-in-out;
+    }
+
+    10%{
+        margin-top: 25%;
+        transition: ease-in-out;
+    }
+    
+    60%{
+        margin-left: 46%;
+        visibility: hidden;
+        transition: ease-in-out;
+        
+    }
+    100%{
+        visibility: hidden; 
+        transition: ease-in-out;
+    }
+
+    
+}
+
+.btn{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 85%;
+    width: 3%;
+    height: 5%;
+}
+
+
+.btn2{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 80%;
+    width: 3%;
+    height: 5%;
+}
+
+
+.btn3{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 75%;
+    width: 3%;
+    height: 5%;
+}
+
+.btn4{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 70%;
+    width: 3%;
+    height: 5%;
+}
+
+.btn5{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 65%;
+    width: 3%;
+    height: 5%;
+}
+
+
+.lsr{
+    position: absolute;
+    width: 86%;
+    height: 20%;
+    margin-left: 19%;
+   clip-path: circle(95%);
+   animation-name: laser;
+   animation-duration: 900ms;
+   animation-iteration-count: 1;
+   display: none;
+   visibility: hidden;
+    margin-top: 6%;
+    transform: rotate(5deg);
+}
+
+.play{
+    position: absolute;
+    margin-left: 84%;
+    width: 19%;
+    margin-top: -6.5%;
+    display: none;
+    transition: ease-in-out;
+}
+
+.pause{
+    position: absolute;
+    width: 12%;
+    margin-left: 87%;
+    margin-top: -2.8%;
+}
+@keyframes laser {
+    from{
+        visibility: visible;
+        clip-path: circle(6%);
+        margin-top: 0%;
+        margin-left: -25%;
+        transform: rotate(0deg);
+    }
+    
+}
+:root {
+    --animation-delay: 10s;
+    --margin-left: 55%;
+
+    
+  }
+#blast{
+    position: absolute;
+    width: 40%;
+    margin-left: var(--margin-left);
+
+    animation-name: blast;
+    display: none;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+   
+}
+
+@keyframes blast{
+from{
+    clip-path: circle(1%);
+    
+}
+}
+
+button{
+    background-image: linear-gradient(to right, #252be1, #1353c2, #1cb2e4, #0646a6);
+    box-shadow: 0 4px 15px 0 rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+   
+    text-align:center;
+    border: none;
+
+}
+
+button:hover{
+      
+    background-image: linear-gradient(to right, #04098b, #093580, #0549d1, #053173);
+    border: red;
+    font-size: xx-large;
+   
+}
+
+#center {
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 14%;
+    left:9%;
+    transform: translateY(-50%) translateX(-50%);
+    font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 7px black;
+  font-weight: bold;
+  
+  }
+  #score {
+    transform-style: preserve-3d;
+    font-size:40px;
+    line-height: 40px;
+    
+  }
+  #tag {
+    transform-style: preserve-3d;
+    display: none;
+    position:absolute;
+    top: -50px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:50px;
+    line-height: 50px;
+  }
+  #title{
+    transform-style: preserve-3d;
+    position:absolute;
+    top:-70px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:40px;
+    line-height: 40px;
+  }
+    
